@@ -1,3 +1,6 @@
+Blog_site - there you write,edit,delete blogs 
+
+there some seeful mistake & learn that i do.
 
 // view blog list
 viewBlogList => creation of problem (id) is undefined.
