@@ -1,0 +1,18 @@
+<%- include("partials/header.ejs") %>
+<div class="create_blog">
+  <h1 class="Title">Welcome to My Blog Site</h1>
+<div class="create_b">
+    <p> Create Your Blogs</p>
+    
+    <form action="/home" method="post" class="form-container" >
+     <label for="bTitle" class="Blog_Title">Blog Title</label>
+     <input type="text" id="bTitle" name="blogtitle" placeholder="Your Title Here..." required/>
+     <label for="bDes" class="Blog_Description">Blog Description</label>
+     <textarea type="text" id="bDes" name="blogDes" placeholder="Your Blog Here..." row="6" required ></textarea>
+    <input type="submit" value="Publish" />
+    </form>
+    
+</div>  
+</div>
+
+<%- include("partials/footer.ejs")  %>
